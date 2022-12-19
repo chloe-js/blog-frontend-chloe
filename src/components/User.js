@@ -88,7 +88,7 @@ export default function Student() {
 
                     // each post we will be adding style
                     <Paper elevation={6} style={{ margin: "10px", padding: "15px", textAlign: "left" }} key={user.id}>
-                        ID:{user.id}<br/>
+                        {/* ID:{user.id}<br/> */}
                         Img: <img src={user.imageSrc} alt={`Image of ${user.title}`} style={{ width: "300px", display: "block" }}></img>
                         Title:{user.title}<br />
                         Review:{user.review}<br />
